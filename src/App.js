@@ -42,20 +42,20 @@ export default () => {
     <div>
       <Header />
       <div className="ui container">
-        <Route path="/">
+        <Route path="/react-components/">
           <div className="ui hidden divider"></div>
           <h1 className="ui header aligned center icon">
             <i className="circular hand point up icon"></i>
             Click any menu item to check out the coresponding component!
           </h1>
         </Route>
-        <Route path="/acordion">
+        <Route path="/react-components/acordion">
           <Accordion items={items} />
         </Route>
-        <Route path="/list">
+        <Route path="/react-components/list">
           <Search />
         </Route>
-        <Route path="/dropdown">
+        <Route path="/react-components/dropdown">
           <Dropdown
             options={options}
             selected={selected}
@@ -63,7 +63,7 @@ export default () => {
             labelText={"Select Color"}
           />
         </Route>
-        <Route path="/translate">
+        <Route path="/react-components/translate">
           <Translate />
         </Route>
       </div>
